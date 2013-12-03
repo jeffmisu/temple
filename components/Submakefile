@@ -1,0 +1,10 @@
+
+export
+SRCS	= $(wildcard *.cpp)
+OBJS	= $(patsubst %.cpp, %.o, $(SRCS))
+OBJ_CMD	= $(CC) -o $@ $(OBJ_FLAGS) $(INC_DIRS) $<
+
+%.o: %.cpp
+	$(OBJ_CMD)
+
+include $(wildcard Makefile)

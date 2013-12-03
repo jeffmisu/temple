@@ -1,0 +1,12 @@
+7
+OutputChannel 100 0 
+Value -100 0 0
+Renderer 0 100 256
+Wave 0 0 0
+If 159 201 
+Op2 -13 183 =
+Value -1 231 5
+0
+3 0 1 0
+4 0 5 0
+0 0 3 0
